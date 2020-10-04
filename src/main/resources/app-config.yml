@@ -1,0 +1,15 @@
+appName: Dropwizard REST Pagination
+dbConnectionUri: mongodb://localhost:27017
+dbName: dropwizard-pagination
+server:
+  rootPath: /*
+  applicationConnectors:
+    - type: http
+      port: 7070
+  adminConnectors:
+    - type: http
+      port: 7071
+logging:
+  level:  WARN
+  loggers:
+    net.nh:  INFO
