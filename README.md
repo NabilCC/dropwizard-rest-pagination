@@ -9,7 +9,7 @@ Simple example of paginated RESTful API using Dropwizard and Mongo DB.
 
 * CD to the directory:
 
-`cd dropwizard-rest-paginationt`
+`cd dropwizard-rest-pagination`
 
 * Build the project:
 
